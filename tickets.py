@@ -1,7 +1,7 @@
 price = 0
 discount = 10
 number_of_tickets = int(input("Введите количество билетов: "))
-for price in range(1, number_of_tickets+1):
+for u in range(1, number_of_tickets+1):
     try:
         age = int(input("Введите возраст посетителя: "))
         if 0 <= age <= 17:
@@ -17,5 +17,4 @@ for price in range(1, number_of_tickets+1):
 print(price)
 if number_of_tickets > 3:
     price = price-(price*discount/100)
-print("общая стоимость покупки: ", int(price))
-print(price)
+print("общая стоимость покупки: ", int(pricrice)
